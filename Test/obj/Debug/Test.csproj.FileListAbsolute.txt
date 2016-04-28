@@ -1,0 +1,12 @@
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.dll.config
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.dll
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.pdb
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Debug\Test.dll
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Debug\Test.pdb
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\bin\Test.dll.config
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\bin\Test.dll
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\bin\Test.pdb
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\obj\Debug\Test.dll
+C:\Users\Chris\Documents\GitHub\test - Copy\Test\obj\Debug\Test.pdb

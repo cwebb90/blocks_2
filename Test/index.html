@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<!--http://ezelia.com/2013/pixi-tutorial-->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="Scripts/lib/jquery-1.11.3.js"></script>
+    <script src="Scripts/lib/pixi.min.js"></script>
+    <script src="Scripts/Components.js"></script>
+    <script src="Scripts/Shapes.js"></script>
+    <!--<script src="player.js"></script>-->
+    <script src="Scripts/Scene.js"></script>
+    <script src="Scripts/SceneManager.js"></script>
+    <script src="Scripts/GameScene.js"></script>
+    <script src="Scripts/MenuScene.js"></script>
+    <script src="Scripts/IntroScene.js"></script>
+    <script src="Scripts/Logic.js"></script>
+</head>
+<body>
+    <h1>TypeScript HTML App</h1>    
+    <script>
+        var scenemanager = Engine.ScenesManager; //reference to scenemanager, not an actual dude
+        scenemanager.create(400, 600);
+        var game = scenemanager.createScene('game', Engine.GameScene);
+        var blank = scenemanager.createScene('blank'); //createSCENE, was missing the scene. dumb
+        var intro = scenemanager.createScene('intro', Engine.IntroScene);
+        var menu = scenemanager.createScene('menu', Engine.MenuScene)
+
+        scenemanager.goToScene('game');
+
+        $(function () {
+            $('#goToGame').click(function () {
+                scenemanager.goToScene('game');
+            });
+            $('#goToBlank').click(function () {
+                scenemanager.goToScene('blank');
+            });
+            $('#gen').click(function () {
+                console.log(GetRandom());
+            });
+        })
+    </script>
+
+    <button id="goToGame">Switch to Game scene</button>
+    <button id="goToBlank">Switch to Blank scene</button>
+</body>
+</html>

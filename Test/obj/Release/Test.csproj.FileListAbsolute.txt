@@ -1,0 +1,6 @@
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.dll.config
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.dll
+C:\Users\Chris\Documents\GitHub\test\Test\bin\Test.pdb
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Release\Test.dll
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Release\Test.pdb
+C:\Users\Chris\Documents\GitHub\test\Test\obj\Release\Test.csprojResolveAssemblyReference.cache
